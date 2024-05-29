@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" type="module"></script>
+</head>
+<body class="back">
+  <nav>
+    <div class="logo">
+      <img src="images/H2.svg" alt="logo">
+    </div>
+    <div class="menu">Menu</div>
+    <ul class="menu-nav">
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="buy.html">Buy</a></li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="log.html">Log In</a></li>
+    </ul>
+  </nav>
+      <main>
+        <div class="buy">
+          <div>
+            <h2>Hello Kitty T-Shirt</h2>
+            <ul>
+              <li>Cost: 5$</li>
+              <li>Sizes: All</li>
+            </ul>  
+          </div>
+          <a href="order.html">Buy</a>
+        </div>
+        <div class="buy">
+          <div>
+            <h2>Hello Kitty toy</h2>
+            <ul>
+              <li>Cost: $15</li>
+              <li>Sizes: All</li>
+              <li>Talking: Yes/No</li>
+            </ul>
+          </div>
+          <a href="order.html">Buy</a>
+        </div>
+        <div class="buy">
+          <div>
+            <h2>Hello Kitty car</h2>
+            <ul>
+              <li>Cost: $666</li>
+              <li>Model: All</li>
+              <li>Modernization: Yes</li>
+              <li>Tuning: Yes</li>
+            </ul>  
+          </div>
+          <a href="order.html">Buy</a>
+        </div>
+        <div class="buy">
+            <div>
+              <h2>Hello Kitty house</h2>
+              <ul>
+                <li>Cost: $7777</li>
+                <li>Floors: Max 16</li>
+                <li>Type: Private/Public</li>
+                <li>House color: Any</li>
+                <li>Size and Shape: Any</li>
+                <li>Additions: Yes</li>
+              </ul>  
+            </div>
+            <a href="order.html">Buy</a>
+          </div>
+      </main>
+    <footer>
+        <p>&copy; 2023 Kitty</p>
+    </footer>
+</body>
+<script>
+  document.querySelector('.menu').addEventListener('click', () => {
+    document.querySelector('.menu-nav').classList.toggle('inv');
+  });
+</script>
+</html>

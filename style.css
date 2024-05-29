@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.back {
+    background-color: #FFC0CB;
+}
+
+
+img {
+    max-width: 50px;
+    padding-right: 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+  
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+nav li {
+    display: inline-block;
+}
+  
+main {
+    display: flex;
+}
+  
+.buy {
+    flex: 1 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 24px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #AA336A;  
+}
+  
+.buy a {
+    display: block;
+    margin-top: 12px;
+    padding: 6px;
+    background-color: #AA336A;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.menu-nav {
+    display: block;
+    margin: 0;
+    padding: 6px;
+}
+  
+.menu-nav li {
+    display: inline-block;
+    padding-left: 12px;
+}
+
+.menu {
+    background-color: rgb(250, 156, 172);
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+  
+.menu-nav {
+    list-style-type: none;
+}
+
+.inv {
+    display: none;
+}
