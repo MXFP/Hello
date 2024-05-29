@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" type="module"></script>
 </head>
 <body class="back">
   <nav>
@@ -52,6 +50,14 @@
         <div class="grid-container">
           <div class="grid-item item1"><p class="copyright_text">Hello Kitty Shop ©</p>
           </div>
+            <div class="grid-item item2">
+               <div class="socials">
+               <a href="https://www.facebook.com"> <img src="https://cdn.icon-icons.com/icons2/2890/PNG/512/apps_social_media_facebook_logo_social_network_media_online_icon_182716.png" alt="facebook"> </a> </div>
+                <div class="socials"> <a href= "https://www.snapchat.com/"><img src="https://cdn.icon-icons.com/icons2/840/PNG/512/Snapchat_icon-icons.com_66936.png" alt="snapchat"> </a> </div>
+                <div class="socials"><a href="https://www.youtube.com/"> <img src="https://cdn.icon-icons.com/icons2/195/PNG/256/YouTube_23392.png" alt="youtube"> </a></div> </div> 
+            </div> 
+          </div>
+      </footer>
 </body>
 <script>
   document.querySelector('.menu').addEventListener('click', () => {
