@@ -24,9 +24,4 @@
         <p>&copy; 2023 Kitty</p>
     </footer>
 </body>
-<script>
-  document.querySelector('.menu').addEventListener('click', () => {
-    document.querySelector('.menu-nav').classList.toggle('inv');
-  });
-</script>
 </html>
